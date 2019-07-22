@@ -1,0 +1,78 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>追风者后台管理登录窗口</title>
+
+<link href="css/layout.css" rel="stylesheet" type="text/css" />
+<!----------------背景选项卡---------------->
+<script type="text/javascript" src="yanzheng/jquery-1.4.2.min.js" ></script>
+
+<script type="text/javascript" src="js/bgstretcher.js"></script>
+<script type="text/javascript">
+	$(document).ready(function(){
+        $('#username').focus();
+		$(document).bgStretcher({
+			images: ['images/bg/11.jpg', 'images/bg/06.jpg'],
+			
+			//images: ['template/images/bg/19.jpg'],
+			imageWidth: 1024, imageHeight: 768
+		});
+		
+		$('#toggleAnimation').click(function(){
+	       if($(this).val() == "背景停止"){
+	           $(this).val("背景播放");
+	           $(document).bgStretcher.pause();
+	       } else {
+	           $(this).val("背景停止");
+	           $(document).bgStretcher.play();
+	       }
+		});
+	});
+</script>
+<!---------------背景选项卡-end-------------->
+
+<script type="text/javascript" src="js/DD_belatedPNG.js"></script>
+<script type="text/javascript" src="yanzheng/validate.pack.js"  ></script>
+<link   href="yanzheng/validate.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+<div id="page" class="box">
+  <div class="mainwrap fl">
+    <div class="main">
+      <div id="login" class="login" style="position: relative;margin-left: 350px">
+        <div style="width: 100%;height: 50px" align="center"> <font size="+2" color="#FFFFFF" >追风者后台管理系统</font> </div>
+        <div class="loginform fl" align="center">
+          <form action="login_check.php" method="post" name="form1">
+          	
+		  <input type="hidden" name="action" value="login" />
+            <table width="100%" border="0" cellspacing="0" cellpadding="0">
+              <tr>
+                <td class="formtitle">账 号 ：</td>
+                <td><input name="username"  id="username" type="text" class="text"  /></td>
+              </tr>
+              <tr>
+                <td class="formtitle">密 码 ：</td>
+                <td><input name="pwd" type="password" class="text" id="password" /></td>
+              </tr>
+               <tr>
+                <td class="formtitle">验证码 ：</td>
+                <td><input name="code" type="text" class="text" id="yzm" />
+                 <img src="../includes/verify.php" onClick="this.src=this.src+'?num='+Math.random()" /></td>
+              </tr>
+              <tr>
+                <td colspan="2" align="center"><input type="submit" class="loginbtn" value="登  录" /></td>
+              </tr>
+            </table>
+          </form>
+        </div>
+        
+      </div>
+      
+    </div>
+  </div>
+</div>
+</body>
+</html>

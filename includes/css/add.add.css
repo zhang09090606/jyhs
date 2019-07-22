@@ -1,0 +1,103 @@
+body {
+	margin: 0px;
+	padding: 0px;
+}
+.head {
+	width: 100%;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	background: #57cf22;
+}
+.div {
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 95%;
+}
+.arrow {
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	margin-top: -40px;
+}
+.input {
+	border: none;
+	outline: none;
+	height: 30px;
+	font-size: 16px;
+}
+.div_div_img {
+	width: 40px;
+	height: 40px;
+	float: right;
+	position:relative;
+	margin-top: -5px;
+}
+.input_div {
+	width: 95%;
+	height: 300px;
+	margin: 0px;
+	padding: 0px;
+	position: relative;
+	top: 10px;
+	left: 10px;
+}
+.add_input {
+	border: none;
+	outline: none;
+	height: 30px;
+	font-size: 16px;
+	width: 70%;
+}
+.map_check {
+	float: left;
+	position: relative;
+	margin-left: 10px;
+	margin-top: 6px;
+}
+
+.check_p {
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.bar7 {
+	margin: 0px;
+	padding: 0px;
+}
+.bar7 input {
+	width: 250px;
+	border-radius: 42px;
+	background:#DCDCDC;
+	transition: .3s linear;
+	height: 30px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	outline: none;
+	border: none;
+	padding-left: 8px;
+}
+.bar7 input:focus {
+	width: 300px;
+}
+.bar7 button {
+	background: none;
+	top: -2px;
+	
+}
+.bar7 button:before {
+	
+	color: #324b4e;
+}
+.botten {
+	position:relative;
+	bottom: 0px;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 40px;
+	color: #FFFFFF;
+	font-size: 20px;
+	background-color: #57cf22;
+}

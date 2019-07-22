@@ -1,0 +1,56 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+hr{
+	margin: 0px;
+	padding: 0px;
+}
+
+div{
+	margin:0px;
+	padding: 0px;
+}
+.arrow{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	margin-top: -40px;
+}
+.head{
+	width: 100%;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	background:#57cf22;
+}
+.main{
+	width: 100%;
+	height: 100%;
+}
+.main_div{
+	position: relative;
+	width: 100%;
+	height:100px;
+}
+.main_img{
+	width: 40px;
+	height: 40px;
+	float: left;
+	position: relative;
+	margin-left: 20px;
+
+	
+}
+.main_p{
+position: relative;
+left: 30px;
+top:10px
+	
+}
+.main_font{
+position: relative;
+left: 160px;
+top:-28px
+	
+}

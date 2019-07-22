@@ -1,0 +1,63 @@
+@charset "utf-8";
+/* CSS Document */
+@import url("global.css");
+body{ background:#000;}
+
+/*=主体外套
+------------------------*/
+.box{ width:100%; height:510px;}
+#page{ position:absolute;z-index: 2;top:50%; margin-top:-209px;}
+
+
+.mainwrap{ width:100%; height:358px; padding:10px 0px;background:url(../images/main.png) repeat-x;}
+.main{ height:378px; width:1024px; margin:0px auto; padding:0px;}
+
+/*----------login------------*/
+.login{ width:315px; height:356px; background:url(../images/ligonbg.png) no-repeat;}
+#login{ position:absolute; margin-left:680px; z-index:4;}
+.login-logo{ padding:12px 14px 15px 80px; height:50px;}
+.loginform{ width:315px; height:220px; padding:10px 0px;}
+.loginform form{width:315px; height:220px;}
+.loginform td{ height:55px; line-height:55px;}
+.text{ height:24px; line-height:24px; color:#fff; width:190px; padding:5px; _line-height:44px !important; background:url(../images/text.png) no-repeat; border:none;}
+.text02{height:24px; line-height:24px; color:#fff;  _line-height:44px !important;width:107px; padding:5px;background:url(../images/yzm.png) no-repeat; border:none;}
+.formtitle{ text-align:right;padding:0px 10px; width:70px; font-size:14px; color:#fff; font-weight:bold;}
+.loginbtn{ width:124px; height:43px; line-height:40px; background:url(../images/login.png) no-repeat; border:none; color:#fff; font-size:14px; font-weight:bold; cursor:pointer; padding-right:8px;}
+.loginbtn:hover{ background:url(images/loginon.png) no-repeat;}
+.yzm{ width:78px; height:23px; padding:3px 0px 5px 8px;padding:3px 0px 5px 8px !important; opacity: 0.7;-moz-opacity: 0.7;filter: alpha(opacity=70);}
+
+
+
+
+/*---------------banner-ifream-------------*/
+#banner-ifream{ position:absolute; z-index:3px; width:1024px; height:350px;padding:3px 0px;}
+#banner-ifream iframe{ width:1024px; height:356px; background:none; border:none;}
+
+.footwrap{ width:100%; height:102px; margin-top:20px;}
+.footer{ width:1024px; height:102px; margin:0px auto; padding:0px;}
+.bq{ color:#009dfe; width:960px; padding:10px 32px; height:30px; font:12px; line-height:30px; text-align:center;}
+/*---------------news-ifream-------------*/
+.news{ width:570px;padding:0px 217px; height:30px; background:url(images/newsbg.png) no-repeat center;}
+.nwes iframe{ width:450px; height:30px; line-height:30px; overflow:hidden; background:none; border:none;}
+.bgbtn{ width:100px; height:30px; padding-left:20px;}
+#toggleAnimation{ width:100px; height:30px; color:#FFF; border:none; background:none;}
+.bgstretcher {
+	background: black;
+	overflow: hidden;
+	width: 100%;
+	height:100%;
+	position: fixed !important;
+	z-index: 1;
+}
+.bgstretcher, .bgstretcher UL, .bgstretcher UL LI {
+	position: absolute;
+	top: 0;
+	right: 0;
+	left: 0;
+	bottom: 0;
+}
+.bgstretcher UL, .bgstretcher UL LI {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}

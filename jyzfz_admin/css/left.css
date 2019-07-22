@@ -1,0 +1,38 @@
+body, div, iframe, ul, li, ol, dl, dt, dd, p, table, th, td, legend, fieldset, input, button, select, textarea {margin: 0;padding: 0;font-weight: normal;font-style:normal;font-size:12px}
+body{font-size:12px; margin:0; background:rgb(247,251,252);font-family:"宋体",Arial, Helvetica, sans-serif;}
+h1, h2, h3, h4, h5, h6 { font-size:100%; font-weight:normal;}
+a{color:#fff;text-decoration: none;}
+a:link {color:#fff;}
+a:visited {color:#fff;}
+a:hover {color: #c30;text-decoration:underline;}
+a:active{blr:expression(this.onFocus=this.blur())}
+a:focus {outline:none; -moz-outline:none;}
+img {border:0;}
+table { border-collapse:collapse; border-spacing:0; }
+ol, ul {list-style: none;}        i, em{font-style:normal;}
+.clear { clear: both; font: 0px/0px sans-serif;}
+
+.left_box{width:187px; height:auto; max-height:auto; display:inline; margin:4px 0px 0px 4px; float: left;}
+.left_box_kk{width:187px; height:auto; max-height:auto;float: left;margin-bottom:8px;overflow:hidden;}
+.left_box_tit{width:187px; height:25px; max-height:25px; line-height:25px;float:left; background:url(../images/admbg.png) no-repeat 0px -104px; text-align:center; color:#FFF; font-weight:bold; font-size:12px; display:block;CURSOR: pointer;overflow:hidden;}
+.left_box_nr{width:179px; height:auto; max-height:auto; border:1px #C4D5DF solid; border-top:0; float: left;padding:4px 3px 0px 3px;overflow:hidden;}
+.left_box_nr ul li{height:20px; max-height:20px; line-height:20px;font-size:12px;background:url(../images/admbg.png) no-repeat 0px -144px; margin:2px 0px 4px 0px; color:#000000;overflow:hidden;}
+.left_box_nr ul li .channel{width:9px;height:9px; max-height:9px;background:url(../../jyzfz_admin/images/admjt.gif) no-repeat 0px 0px;margin:10px 8px 0px 15px;display:inline;float:left;overflow:hidden;}
+.left_box_nr ul li a{height:20px; max-height:20px;color:#333333;text-decoration: none;display:block;background:url(../images/right.gif) no-repeat 36px center;background-color:#F7FBFC; padding-left:56px;} /* 链接无下划线,有为underline */ 
+.left_box_nr ul li a:link {height:20px; max-height:20px;color:#333333;} /* 未访问的链接 */
+.left_box_nr ul li a:visited {height:20px; max-height:20px;color:#333333;} /* 已访问的链接 */
+.left_box_nr ul li a:hover {height:20px; max-height:20px;color: #c30;text-decoration:none;}/* 鼠标在链接上下沉效果 */
+
+/**
+	栏目列表
+*/
+
+.catlist{width:158px; clear:both; margin:5px auto}
+.catlist ul{width:165px; clear:both; margin:0px auto; padding:0px; list-style:none}
+.catlist ul li{clear:both; color:#333333; line-height:22px; width:130px}
+.catlist ul li a{color:#333333;text-decoration:none;}
+.catlist ul li a:visited {color:#333333;text-decoration:none;}
+.catlist ul li a:hover {color: #c30;text-decoration:none;}
+
+.plus{background:url(../images/folder-closed.gif) left center no-repeat; padding-left:36px}
+.minus{background:url(../images/folder.gif) left center no-repeat; padding-left:36px}

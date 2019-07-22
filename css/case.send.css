@@ -1,0 +1,173 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.arrow{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	margin-top: -40px;
+}
+.head{
+	width: 100%;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	background:#57cf22;
+}
+.add_div{
+	width: 100%;
+	height: 60px;
+}
+.add_img{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	float: left;
+}
+.add_p{
+	float: left;
+	font-size: 13px;
+	position: relative;
+	top:7px;
+	
+}
+.add_arrow{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	float: right;
+}
+.time_div{
+	width: 100%;
+	height: 60px;
+}
+.time_img{
+	width: 40px;
+	height: 40px;
+	margin-top: 10px;
+	float: left;
+}
+.time_p{
+	float: left;
+	
+}
+.Wdate{
+	float: left;
+	margin-top: 15px;
+	margin-left: 15px;
+}
+.main{
+	
+}
+.main_div{
+	width: 100%;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+}
+.main_div p{
+	height: 30px;
+	position: relative;
+	top:10px;
+	margin: 0px;
+	padding: 0px;
+}
+.p1{
+	width: 33%;
+	float: left;
+	font-size: 15px;
+	
+}
+.p2{
+	width: 20%;
+	font-size: 10px;
+
+	float: left;
+	
+}
+.p3{
+	width: 30%;
+	float: right;
+	font-size: 15px;
+	
+}
+.main_hr{
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	
+}
+.botten_table{
+	margin: 0;
+    padding: 0;
+	position: relative;
+	top:48px;
+	width: 100%;
+	height: 100%;
+}
+.botten_table tr{
+	margin: 0;
+    padding: 0;
+}
+.botten_table tr td{
+	margin: 0;
+    padding: 0;
+}
+.botten_div{
+	position: fixed;
+	bottom:0px;
+	width: 100%;
+	height: 53px;
+	border-style: solid;
+	border-bottom-color: #FFFFFF;
+	border-left: #FFFFFF;
+	border-top-color:#EAEAEA;
+	border-top-width:2px;
+	background:#FFFFFF;
+	margin: 0;
+    padding: 0;
+}
+.botten_top{ 
+	height: 50px;
+	background:#FFFFFF;
+	margin: 0px;
+	padding: 0px;
+	border-style: solid;
+	border-top-color: #FFFFFF;
+	border-left: #FFFFFF;
+	border-bottom-color:#EAEAEA;
+	border-bottom-width:1px;
+	border-right-width:0px;
+	
+}
+.botten_p{
+	position:absolute;
+	float: left;
+	top: 2px;
+	left: 35px;
+	color:#696969
+	
+}
+.submit{
+	position: absolute;
+	right: 6px;
+	top:-1px;
+	background: #0EEF0B;
+	border: 0px;
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+	height: 54px;
+	font-size: 20px;
+	color: #FFFFFF;
+	font-weight: 600;
+	
+}
+.price{
+	position: absolute;
+	right: 110px;
+	font-size: 15px;
+	top: 15px;
+}

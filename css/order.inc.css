@@ -1,0 +1,119 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+hr{
+	margin: 0px;
+	padding: 0px;
+}
+.arrow{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	margin-top: -40px;
+}
+.head{
+	width: 100%;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	background:#57cf22;
+}
+.empty_img{
+	width: 150px;
+	height: 150px;	
+}
+.empty_p{
+	margin-top: 40px;
+}
+
+.main_div{
+	width: 100%;
+}
+.main{
+	width: 100%;
+	margin-bottom: 116px;
+}
+.main_check{
+	width: 20px;
+	height: 20px;
+}
+.main_bottom{
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	height: 100px;
+}
+.main_bottom_div{
+	margin: 0px;
+	padding: 0px;
+	height: 30px;
+	width: 100%；
+}
+
+
+.main_bottom input{
+	width: 80px;
+	height: 30px;
+	position: relative;
+	top: 10px;
+	float: right
+
+}
+.main_bottom p{
+	margin: 0px;
+	padding: 0px;
+	height: 20px;
+	position: relative;
+	top:8px;
+	float: right;
+}
+.main_bottom_font{
+	margin: 0px;
+	padding: 0px;
+	width: 100px;
+	position: relative;
+	top: 20px;
+	left: 20px;	
+}
+.main_div2{
+	float: left;
+	width: 80px;
+	height: 80px;
+	margin: 0px;
+	padding: 0px;
+
+}
+.main_div2 img{
+	margin: 0px;
+	padding: 0px;
+	width: 80px;
+	height: 80px
+}
+
+.main_div3{
+	
+	
+	height: 80px;	
+	width: 100%;
+	background-color:#F9F9F9;
+}
+.main_div3 p{
+	font-size: 12px;
+	width: 150px;
+	margin: 0px;
+	padding: 0px;
+}
+.main_div_p1{
+	position: relative;
+	top: 30px;
+	left: 20px;
+}
+.main_div_p2{
+	float: right;
+}
+.main_div4{
+	position: relative;
+	float: right;
+	top:10px 
+}

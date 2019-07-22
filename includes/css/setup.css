@@ -1,0 +1,32 @@
+body{
+	margin: 0px;
+	padding: 0px;
+}
+.head{
+	width: 100%;
+	height: 40px;
+	margin: 0px;
+	padding: 0px;
+	background:#57cf22;
+}
+.arrow{
+	position: absolute;
+	width:40px;
+	height: 40px;
+	margin-top: -40px;
+}
+.main_div{
+	width: 100%;
+	height:40px; 
+	margin: 0px;
+	padding: 0px;
+}
+
+.main_p{
+	margin: 0px;
+	padding: 0px;
+	float: left;
+	margin-top: 4px;
+	margin-left: 6px;
+	font-size: 20px;
+}
